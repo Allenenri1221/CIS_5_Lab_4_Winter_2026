@@ -57,8 +57,8 @@ int findHighest(const int* arr, int size) {
     int highest = arr[0];
     for (int i = 1; i < size; i++)
         if (arr[i] > highest)
-            highest = arr[i];
-        return highest;
+            highest = arr[i];        
+    return highest;
 }
 
 int countPassed(const int arr[], int size) {
@@ -66,5 +66,5 @@ int countPassed(const int arr[], int size) {
     for (int i = 0; i < size; i++)
         if (arr[i] >= 70)
             count++;
-        return count;
+    return count;
 }
